@@ -11,29 +11,10 @@ body {
 }
 
 header {
-    background-color: rgba(46, 59, 78, 0.8);
+    background-color: rgba(46, 59, 78, 0.8); /* Slightly more transparent background */
     color: #fff;
-    text-align: left; /* Align text to left */
-    padding: 20px;
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Align items vertically */
-    gap: 20px; /* Space between image and text */
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
-}
-
-.profile-pic {
-    width: 80px; /* Adjust width of profile picture */
-    height: 80px; /* Adjust height of profile picture */
-    border-radius: 50%; /* Make image round */
-    object-fit: cover; /* Ensure image covers the container */
-}
-
-.header-text {
-    max-width: calc(100% - 100px); /* Ensure text does not overlap with image */
+    text-align: center;
+    padding: 20px 0; /* Reduced padding */
 }
 
 header h1 {
