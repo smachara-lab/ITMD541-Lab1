@@ -6,27 +6,46 @@ body {
     background: url('../images/profile.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
-    line-height: 1.4; /* Slightly smaller line height for better fit */
+    line-height: 1.4;
     background-blend-mode: overlay;
 }
 
 header {
-    background-color: rgba(46, 59, 78, 0.8); /* Slightly more transparent background */
+    background-color: rgba(46, 59, 78, 0.8);
     color: #fff;
-    text-align: center;
-    padding: 20px 0; /* Reduced padding */
+    text-align: left; /* Align text to left */
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between image and text */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 80px; /* Adjust width of profile picture */
+    height: 80px; /* Adjust height of profile picture */
+    border-radius: 50%; /* Make image round */
+    object-fit: cover; /* Ensure image covers the container */
+}
+
+.header-text {
+    max-width: calc(100% - 100px); /* Ensure text does not overlap with image */
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em; /* Reduced font size */
+    font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 header p {
-    font-size: 1em; /* Reduced font size */
-    margin: 5px 0 15px; /* Reduced margin */
+    font-size: 1em;
+    margin: 5px 0 15px;
 }
 
 nav ul {
