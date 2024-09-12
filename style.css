@@ -6,7 +6,7 @@ body {
     background: url('../images/profile.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
-    line-height: 1.4;
+    line-height: 1.4; /* Slightly smaller line height for better fit */
     background-blend-mode: overlay;
 }
 
@@ -19,14 +19,14 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2em; /* Reduced font size */
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 header p {
-    font-size: 1em;
-    margin: 5px 0 15px;
+    font-size: 1em; /* Reduced font size */
+    margin: 5px 0 15px; /* Reduced margin */
 }
 
 nav ul {
